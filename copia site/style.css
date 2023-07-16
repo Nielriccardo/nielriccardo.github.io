@@ -1,0 +1,193 @@
+
+/* Estilos para telas menores */  
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .menu{
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Tektur', cursive;
+        float: left;
+    }
+    
+    .menu:hover{
+        color: green;
+    }
+
+    nav ul {
+        display: none;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+        color: white;
+    }
+    main {
+        padding: 10px;
+        color: white;
+    }
+    section {
+        margin: 10px 0;
+        color: white;
+        font-family: 'Source Code Pro', monospace;
+    }
+    section p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    strong:hover{
+        color: green;
+    }
+
+    .valorant{
+       position: relative;
+       width: 100%;
+       cursor: pointer;
+       box-shadow: -5px -5px 5px -5px green,
+                    5px 5px 5px -5px green,
+                    -5px 5px 5px -5px green,
+                    5px -5px 5px -5px green;
+    }
+    .inclusiva{
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        box-shadow: -5px -5px 5px -5px green,
+                    5px 5px 5px -5px green,
+                    -5px 5px 5px -5px green,
+                    5px -5px 5px -5px green;;
+    }
+
+    .freefire{
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        box-shadow: -5px -5px 5px -5px green,
+                    5px 5px 5px -5px green,
+                    -5px 5px 5px -5px green,
+                    5px -5px 5px -5px green;;
+    }
+
+    .logosite{
+        position: relative;
+        width: 250px;
+        left: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logosite{
+        margin-left: 10px;
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
+        left: -40px;
+    }
+    nav li{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 20px;
+        font-family: 'Source Code Pro', monospace;
+    }
+    footer{
+        background-color: #6B6B6B;
+    
+    }
+
+    footer A{
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+        color: white;
+    }
+
+    body{
+        background-image: linear-gradient(to top, #000000,#545454 );
+        background-attachment: fixed;
+    }
+}
+
+/* Estilos para telas maiores */
+@media only screen and (min-width: 601px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        color: white;
+        background-color: #000000;
+    }
+    header > h1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        
+        
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        color: white;
+    }
+    nav li {
+        margin-right: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        color: white;
+    }
+    section {
+        flex-basis: 48%;
+        margin: 20px 0;
+        color: white;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    footer{
+        background-color: #6B6B6B;
+        color: #ffffff;
+        padding: 50px;
+        
+    }
+
+    .logosite{
+        position: absolute;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body{
+    background-image: url(/assets/fundo\ imagem.jpg);
+    background-attachment: fixed;
+    height: 500px;
+}
+    
+}
+
